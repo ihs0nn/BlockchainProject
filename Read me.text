@@ -1,0 +1,20 @@
+Ganache account private key: 0x6025fcd6e621c0cca7d41805fded17aaee283b53e8dbd19cf7c653427f93599e ;
+
+
+
+Tools: 
+    + install MetaMask extension .
+    + install Ganache (then import  a ganache account into MetaMask, by importing the private key of one of the accounts provided  by Ganache and configuring the prot )
+    + Remix : on line EDM .
+
+
+---> How to Run The project :
+Smart Contract: 
+    1- copy the smart contract to Remix .
+    2- compile it and get the ABI .
+    3- Deploy the smart contract and get its address (don't forget to switch the environment to "imjected provider - Meta Mask" before deploying , to deeploy the contract with the intended account)
+
+User Interface:
+    1-  open the project in an EDM( VsCode,..) 
+    2- cd BLOCKCHAINPROJECT
+    3- execute command:     lite-server  or just open the html file in browser where the meta Mask extention is installed
